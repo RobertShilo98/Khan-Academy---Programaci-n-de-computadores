@@ -86,9 +86,17 @@ def romamos():
             numero.append(insertar_numero)
             letra.append("XC")
 
+        elif insertar_numero == 900:
+            numero.append(insertar_numero)
+            letra.append("CM")
+
         elif insertar_numero == 100:
             numero.append(insertar_numero)
             letra.append("C")
+
+        elif insertar_numero == 1000:
+            numero.append(insertar_numero)
+            letra.append("M")
 
         elif insertar_numero == 0:
             numero.append(insertar_numero)
@@ -97,7 +105,7 @@ def romamos():
     suma1 = (numero[0] + numero[1] + numero[2] + numero[3] + numero[4])
     suma2 = (letra[0] + letra[1] + letra[2] + letra[3] + letra[4]) 
 
-    print(f"\nNúmero arabigo: {suma1}")
+    print(f"\nNúmero arábigo: {suma1}")
     print(f"\nNúmero romano: {suma2}")
 
 
